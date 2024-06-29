@@ -23,10 +23,6 @@ public class OrderEntity {
     public OrderEntity() {
 
     }
-
-
-
-
     public Long getId() {
         return id;
     }
