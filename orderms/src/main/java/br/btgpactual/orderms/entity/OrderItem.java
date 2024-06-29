@@ -17,6 +17,13 @@ public class OrderItem {
 
     public OrderItem() {}
 
+    public OrderItem(Long id, String product, Integer quantity, BigDecimal price) {
+        this.id = id;
+        this.product = product;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
     public Long getId() {
         return id;
     }

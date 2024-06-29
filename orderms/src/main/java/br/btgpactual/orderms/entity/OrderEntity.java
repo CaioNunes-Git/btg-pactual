@@ -20,7 +20,12 @@ public class OrderEntity {
     private BigDecimal total;
     private List<OrderItem> items;
 
-    public OrderEntity() {}
+    public OrderEntity() {
+
+    }
+
+
+
 
     public Long getId() {
         return id;
